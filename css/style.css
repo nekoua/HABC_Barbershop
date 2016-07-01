@@ -1,0 +1,146 @@
+
+html, body {
+	min-width: 1122px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 960px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;	
+	color: #ffffff;
+	background: #000000 url(../img/barbershop-BG.jpg) no-repeat center top;
+}
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	background: #000000;
+	color: #ffffff;
+	margin: 0 0 60px 0; 
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: brown;
+}
+.main-navigation {
+	min-height: 70px;
+	width: 780px;
+	float: left;	
+}
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+}
+.main-navigation a {
+	display: block;
+	padding: 25px 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.main-navigation a:hover {
+	color: #242424;
+}
+.user-block {
+	max-width: 140px;
+	float: right;
+}
+.login {
+	position: relative;
+	display: inline-block;
+	padding: 25px 20px 0 50px;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: top;
+	color: #ffffff;
+	text-decoration: none;
+}
+.login:hover {
+	background-color: #242424;
+}
+.login::before {
+	position: absolute;
+	top: 28px;
+	left: 20px;
+	content: "";
+	width: 18px;
+	height: 18px;
+	background: #ff0000;
+}
+.index-logo {
+	height: 204px;
+	width: 368px;
+	margin: 0 auto 25px;
+	background-color: orange;
+}
+.features {
+	background-color: green;
+	margin: 0 0 80px 0;
+}
+.features-item {
+	min-height: 175px;
+	width: 300px;
+	background-color: yellow;
+	margin: 0 20px 0 0;
+	float: left;
+}
+.features-item:last-child {
+	margin: 0 0 0 0;
+}
+.index-content {
+	margin: 0 0 35px 0;
+	background-color: green;
+	padding: 50px 80px;
+}
+.index-content-left {
+	width: 380px;
+	min-height: 330px;
+	float: left;
+	margin: 0 100px 0 0;
+	background-color: blue;
+}
+.index-content-right {
+	width: 300px;
+	min-height: 330px;
+	float: right;
+	background-color: yellow;
+}
+.main-footer {
+	margin: 65px 0 0 0;
+	padding: 60px 0 40px 0;
+}
+.footer-contacts {
+	width: 320px;
+	float: left;
+	margin: 0 60px 0 0;
+	min-height: 90px;
+	background-color: yellow;
+}
+.footer-social {
+	width: 180px;
+	float: left;
+	min-height: 90px;	
+	background-color: yellow;
+}
+.footer-copyright {
+	width: 180px;
+	float: right;
+	min-height: 90px;	
+	background-color: yellow;
+}
