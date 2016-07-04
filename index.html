@@ -63,8 +63,8 @@
 					<figure class="gallery-content">
 						<img src="img/" width="268" height="164" alt="">
 					</figure>
-					<button class="btn gallery-prev" disabled="1">НАЗАД</button>
-					<button class="btn gallery-next">ВПЕРЕД</button>
+					<button class="btn gallery-prev" type="button" disabled="1">НАЗАД</button>
+					<button class="btn gallery-next" type="button">ВПЕРЕД</button>
 				</div>
 			</div>
 		</div>
@@ -124,5 +124,21 @@
 			</section>
 		</div>
 	</footer>
+	<div class="modal-content">
+		<button class="modal-content-close" type="button" title="ЗАКРЫТЬ">ЗАКРЫТЬ</button>
+		<h2 class="modal-content-title">ЛИЧНЫЙ КАБИНЕТ</h2>
+		<p>ВВЕДИТЕ СВОЙ ЛОГИН И ПАРОЛЬ</p>
+		<form class="login-form" action="#" method="post">
+			<input class="icon-user" type="text" name="login" placeholder="ЛОГИН">
+			<input class="icon-password" type="password" name="login" placeholder="ПАРОЛЬ">
+			<label class="login-checkbox">
+				<input type="checkbox" name="remember">
+					<span class="checkbox-indicator"></span>
+					ЗАПОМНИТЬ МЕНЯ
+			</label>
+			<a class="restore" href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+			<button class="btn" type="submit">ВОЙТИ</button>
+		</form>
+	</div>
 </body>
 </html>
