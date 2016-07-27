@@ -14,8 +14,8 @@
 				<ul>
 					<li><a href="#">ИНФОРМАЦИЯ</a></li>
 					<li><a href="#">НОВОСТИ</a></li>
-					<li><a href="#">ПРАЙС-ЛИСТ</a></li>
-					<li><a href="#">МАГАЗИН</a></li>
+					<li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+					<li><a href="shop.html">МАГАЗИН</a></li>
 					<li><a href="#">КОНТАКТЫ</a></li>
 				</ul>
 			</nav>
@@ -82,7 +82,7 @@
 					СБ - ВС: С 10:00 ДО 19:00
 
 				</p>
-				<a class="btn" href="#">КАК ПРОЕХАТЬ</a>
+				<a class="btn open-map-js" href="#">КАК ПРОЕХАТЬ</a>
 				<a class="btn" href="#">ОБРАТНАЯ СВЯЗЬ</a>
 			</div>
 			<div class="index-content-right">
@@ -108,7 +108,7 @@
 			<section class="footer-contacts">
 				БАРБЕРШОП «БОРОДИНСКИЙ»<br>
 					АДРЕС: Г. САНКТ-ПИТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
-					<a HREF="#">КАК НАС НАЙТИ?</a><br>
+					<a class="open-map-js" href="#">КАК НАС НАЙТИ?</a><br>
 					ТЕЛЕФОН: +7 (812) 666-02-66
 
 			</section>
@@ -130,7 +130,7 @@
 		<p>ВВЕДИТЕ СВОЙ ЛОГИН И ПАРОЛЬ</p>
 		<form class="login-form" action="#" method="post">
 			<input class="icon-user" type="text" name="login" placeholder="ЛОГИН">
-			<input class="icon-password" type="password" name="login" placeholder="ПАРОЛЬ">
+			<input class="icon-password" type="password" name="password" placeholder="ПАРОЛЬ">
 			<label class="login-checkbox">
 				<input type="checkbox" name="remember">
 					<span class="checkbox-indicator"></span>
@@ -140,7 +140,14 @@
 			<button class="btn" type="submit">ВОЙТИ</button>
 		</form>
 	</div>
-	<div class="modal-content-map"><button class="modal-content-close" type="button" title="ЗАКРЫТЬ">ЗАКРЫТЬ</button></div>
+	<div class="modal-content-map">
+	<button class="modal-content-close" type="button" title="ЗАКРЫТЬ">ЗАКРЫТЬ</button>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1893.668160366471!2d35.13902694170238!3d47.83860155393545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40a02a59e6be37ff!2z0JfQsNC_0L7RgNC-0LbRgdC60LDRjyDQvtCx0LvQs9C-0YHQsNC00LzQuNC90LjRgdGC0YDQsNGG0LjRjw!5e0!3m2!1sru!2sua!4v1467898551557" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
 	<div class="modal-overlay"></div>
+
 </body>
+<script src="js/loginPopUp.js"></script>
+<script src="js/mapPopUp.js"></script>
+
 </html>
