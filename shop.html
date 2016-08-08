@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Барбершоп «Бородинский»</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="inner-page">
+	<header class="main-header">
+		<div class="container clearfix">
+			<nav class="main-navigation">
+				<a class="logo-inner" href="index.html">
+					<img src="img/Logo-menu.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+				</a>
+				<ul>
+					<li><a href="#">ИНФОРМАЦИЯ</a></li>
+					<li><a href="#">НОВОСТИ</a></li>
+					<li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+					<li class="active"><span>МАГАЗИН</span></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a class="login" href="#">Вход</a>
+			</div>
+		</div>
+	</header> 
+
+	<main class="container">
+		<h1 class="page-title">СРЕДСТВА ДЛЯ УХОДА</h1>
+		<ul class="breadcrumbs">
+			<li><a href="#">ГЛАВНАЯ</a></li>
+			<li><a href="#">МАГАЗИН</a></li>
+			<li class="curent">СРЕДСТВА ДЛЯ УХОДА</li>
+		</ul>
+		<form class="shop-filter" action="#" method="post">
+			<fieldset class="producers item-form">
+				<legend class="form-legend">ПРОИЗВОДИТЕЛИ:</legend>
+				<ul class="shop-filter-item">
+					<li class="item-cont">
+						<label class="login-checkbox">
+							<input type="checkbox" name="bfc">
+							<span class="checkbox-indicator"></span>
+							BAXTER OF CALIFORNIA
+						</label>
+					</li>
+					<li class="item-cont">
+						<label class="login-checkbox">
+							<input type="checkbox" name="natty">
+							<span class="checkbox-indicator"></span>
+							MR NATTY
+						</label>
+					</li>
+					<li class="item-cont">
+						<label class="login-checkbox">
+							<input type="checkbox" name="suavecito">
+							<span class="checkbox-indicator"></span>
+							SUAVECITO
+						</label>
+					</li>
+					<li class="item-cont">
+						<label class="login-checkbox">
+							<input type="checkbox" name="malgotz">
+							<span class="checkbox-indicator"></span>
+							MALIN+GOETZ
+						</label>
+					</li>
+					<li class="item-cont">
+						<label class="login-checkbox">
+							<input type="checkbox" name="murrays">
+							<span class="checkbox-indicator"></span>
+							MURRAYS
+						</label>
+					</li>
+					<li class="item-cont">
+						<label class="login-checkbox">
+							<input type="checkbox" name="amercrew">
+							<span class="checkbox-indicator"></span>
+							AMERICAN CREW
+						</label>
+					</li>
+				</ul>
+			</fieldset>	
+
+			<fieldset class="commodity-group item-form">
+				<legend class="form-legend">ГРУППЫ ТОВАРОВ:</legend>
+				<ul class="shop-filter-item">
+					<li class="item-cont">
+						<input type="radio" id="f-option" name="selector">
+						<span class="check"></span>
+						<label class="radiolab" for="f-option">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+					</li>
+					<li class="item-cont">
+						<input type="radio" id="s-option" name="selector">
+						<span class="check"></span>
+						<label class="radiolab" for="s-option">СРЕДСТВА ДЛЯ УХОДА</label>
+					</li>
+					<li class="item-cont">
+						<input type="radio" id="t-option" name="selector">
+						<span class="check"></span>
+						<label class="radiolab" for="t-option">АКСЕССУАРЫ</label>
+					</li>
+				</ul>
+
+			</fieldset>
+			<button class="btn" type="submit">ПОКАЗАТЬ</button>
+		</form>
+
+		<section class="product-group">
+			<article class="product-card">
+				<img src="img/shop/image-1.png" alt="Product image" height="100" width="200">
+				<div class="product-descript">
+					<a href="item.html">
+						<span>Набор для путешествий</span>
+						<span>«BAXTER OF CALIFORNIA»</span>
+					</a>
+				</div>
+				<div class="buying">
+					<span class="price">2900 РУБ.</span>
+					<a class="btn" href="#">КУПИТЬ</a>
+				</div>
+			</article>
+			<article class="product-card">
+				<img src="img/shop/image-2.png" alt="Product image" height="100" width="200">
+				<div class="product-descript">
+					<a href="#">
+						<span>Увлажняющий кондиционер</span>
+						<span>«BAXTER OF CALIFORNIA»</span>
+					</a>
+				</div>
+				<div class="buying">
+					<span class="price">750 РУБ.</span>
+					<a class="btn" href="#">КУПИТЬ</a>
+				</div>
+			</article>
+			<article class="product-card">
+				<img src="img/shop/image-3.png" alt="Product image" height="100" width="200">
+				<div class="product-descript">
+					<a href="#">
+						<span>Гель для волос</span>
+						<span>«SUAVECITO»</span>
+					</a>
+				</div>
+				<div class="buying">
+					<span class="price">290 РУБ.</span>
+					<a class="btn" href="#">КУПИТЬ</a>
+				</div>
+			</article>
+			<article class="product-card">
+				<img src="img/shop/image-4.png" alt="Product image" height="100" width="200">
+				<div class="product-descript">
+					<a href="#">
+						<span>Глина для укладки волос</span>
+						<span>«AMERICAN CREW»</span>
+					</a>
+				</div>
+				<div class="buying">
+					<span class="price">500 РУБ.</span>
+					<a class="btn" href="#">КУПИТЬ</a>
+				</div>
+			</article>
+			<article class="product-card">
+				<img src="img/shop/image-5.png" alt="Product image" height="100" width="200">
+				<div class="product-descript">
+					<a href="#">
+						<span>Гель для волос</span>
+						<span>«AMERICAN CREW»</span>
+					</a>
+				</div>
+				<div class="buying">
+					<span class="price">300 РУБ.</span>
+					<a class="btn" href="#">КУПИТЬ</a>
+				</div>
+			</article>
+			<article class="product-card">
+				<img src="img/shop/image-6.png" alt="Product image" height="100" width="200">
+				<div class="product-descript">
+					<a href="#">
+						<span>Набор для бритья</span>
+						<span>«BAXTER OF CALIFORNIA»</span>
+					</a>
+				</div>
+				<div class="buying">
+					<span class="price">3900 РУБ.</span>
+					<a class="btn" href="#">КУПИТЬ</a>
+				</div>
+			</article>
+			<ul class="pagination">
+				<li><a class="btn" href="#">1</a></li>
+				<li><a class="btn pagi-active" href="#">2</a></li>
+				<li><a class="btn" href="#">3</a></li>
+				<li><a class="btn" href="#">4</a></li>
+			</ul>
+
+
+		</section>
+
+
+	</main>
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<section class="footer-contacts">
+				БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+				АДРЕС: Г. САНКТ-ПИТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+				<a class="open-map-js" href="#">КАК НАС НАЙТИ?</a><br>
+				ТЕЛЕФОН: +7 (812) 666-02-66
+
+			</section>
+			<section class="footer-social">
+				<p>ДАВАЙ ДРУЖИТЬ!</p>
+				<a class="social-btn social-btn-vk" href="#" >ВКОНТАКТЕ</a>
+				<a class="social-btn social-btn-fb" href="#" >ФЕЙСБУК</a>
+				<a class="social-btn social-btn-inst" href="#" >ИНТАГРАМ</a>
+			</section>
+			<section class="footer-copyright">
+				<p>СВЕРСТАНО:</p>
+				<a class="btn" href="#">Mr.Cat</a>
+			</section>
+		</div>
+	</footer>
+	<div class="modal-content">
+		<button class="modal-content-close" type="button" title="ЗАКРЫТЬ">ЗАКРЫТЬ</button>
+		<h2 class="modal-content-title">ЛИЧНЫЙ КАБИНЕТ</h2>
+		<p>ВВЕДИТЕ СВОЙ ЛОГИН И ПАРОЛЬ</p>
+		<form class="login-form" action="#" method="post">
+			<input class="icon-user" type="text" name="login" placeholder="ЛОГИН">
+			<input class="icon-password" type="password" name="password" placeholder="ПАРОЛЬ">
+			<label class="login-checkbox">
+				<input type="checkbox" name="remember">
+				<span class="checkbox-indicator"></span>
+				ЗАПОМНИТЬ МЕНЯ
+			</label>
+			<a class="restore" href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+			<button class="btn" type="submit">ВОЙТИ</button>
+		</form>
+	</div>
+	<div class="modal-content-map">
+		<button class="modal-content-close" type="button" title="ЗАКРЫТЬ">ЗАКРЫТЬ</button>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1893.668160366471!2d35.13902694170238!3d47.83860155393545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40a02a59e6be37ff!2z0JfQsNC_0L7RgNC-0LbRgdC60LDRjyDQvtCx0LvQs9C-0YHQsNC00LzQuNC90LjRgdGC0YDQsNGG0LjRjw!5e0!3m2!1sru!2sua!4v1467898551557" width="766" height="561" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="modal-overlay"></div>
+
+<script src="js/loginPopUp.js"></script>
+<script src="js/mapPopUp.js"></script>
+</body>
+
+
+</html>
