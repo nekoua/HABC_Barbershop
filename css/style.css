@@ -1,7 +1,6 @@
 
 html, body {
 	min-width: 1122px;
-	min-height: 1750px;
 	margin: 0;
 	padding: 0;
 }
@@ -505,10 +504,10 @@ body {
 	border-color: #663d15;
 }
 .login-form input.icon-user {
-	background: #a1b1c1 url("..//img/sprite/spritesheet.png") no-repeat 100% -105px;
+	background: url("..//img/sprite/login_sprite.png") no-repeat 100% 90%;
 }
 .login-form input.icon-password {
-	background: #a1b1c1 url("..//img/sprite/spritesheet.png") no-repeat 100% -105px;
+	background: url("..//img/sprite/login_sprite.png") no-repeat 100% 10%;
 }
 .login-form .restore {
 	float: right;
